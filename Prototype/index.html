@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+
+      <title>NUS Module Tree</title>
+      <meta name="description" content="NUS Module Tree">
+      <meta name="author" content="SitePoint">
+
+      <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.4.css">
+      <link rel="stylesheet" href="css/styles.css?v=1.0">
+      <script src="js/jquery-1.10.2.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/jquery-ui-1.10.4.js"></script>
+      <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>    
+    <body>
+        <div class="header"><div class="Logo">NUS Module Tree</div></div>
+        <div class="content">
+            <label id="major">Major:
+                <select onChange="$('#major').hide();">
+                    <option></option>
+                    <option value="Computer Science">Computer Science</option>
+                </select>
+            </label><br/>
+            <div class="core canvas">
+                <div class="title">CORE - 120 MCs</div>
+                <div class="moduleBlock">CS1010<input type="checkbox"></div>
+            </div>
+            <div class="ulr canvas">
+                <div class="title">ULR - 20 MCs</div>
+                <div class="moduleBlock">CS1010<input type="checkbox"></div>
+            </div>
+            
+            <div class="ue canvas">
+                <div class="title">UE - 20 MCs</div>
+                <div class="moduleBlock">CS1010<input type="checkbox"></div>
+            </div>
+        </div>
+        <div class="footer">
+        <div class="copyright">&copy;2014 Yeo Quan Yang & Davis</div>
+        </div>
+    </body>
+</html>
