@@ -44,7 +44,8 @@ body {
 }
 .moduleBlock {
     background:white;
-    border: 1px solid #ddd;
+    line-height: 17px;
+    border: 1px solid #aaa;
     width:auto;
     display:inline-block;
     padding:3px;
@@ -58,6 +59,8 @@ body {
 }
 .moduleInput {
     outline:none;
+    border-radius:3px;
+    border:none;
     text-shadow:none;
 }
 
