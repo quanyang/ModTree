@@ -51,6 +51,10 @@ body {
     padding:3px;
     vertical-align: middle;
 }
+.moduleBlock+.disabled {
+    color:#ddd;
+    border:1px dashed #aaa;
+}
 .moduleBlock input{
     vertical-align: text-bottom;
 }
